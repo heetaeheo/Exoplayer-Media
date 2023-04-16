@@ -1,8 +1,10 @@
-package com.example.exoplayer
+package com.example.exoplayer.di
 
 import android.app.Application
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
+import com.example.exoplayer.MetaDataReader
+import com.example.exoplayer.MetaDataReaderImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
